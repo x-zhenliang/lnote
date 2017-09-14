@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file alias="blue">resources/qss/blue.css</file>
+    </qresource>
+    <qresource prefix="/title">
+        <file alias="max">resources/images/max.png</file>
+        <file alias="dmax">resources/images/maxdark.png</file>
+        <file alias="min">resources/images/min.png</file>
+        <file alias="dmin">resources/images/mindark.png</file>
+        <file alias="close">resources/images/close.png</file>
+        <file alias="dclose">resources/images/closedark.png</file>
+        <file alias="background">resources/images/background.png</file>
+        <file alias="user">resources/images/user.png</file>
+        <file alias="application">resources/images/application.png</file>
+        <file alias="computer">resources/images/computer.png</file>
+        <file alias="setup">resources/images/configure.png</file>
+        <file alias="backtoolbar">resources/images/backtb.png</file>
+        <file alias="logo">resources/images/logo.png</file>
+    </qresource>
+    <qresource prefix="/autocompletion">
+        <file alias="cpp">resources/i18n/capis</file>
+    </qresource>
+    <qresource prefix="/font">
+        <file alias="webfont">resources/i18n/fontawesome-webfont.ttf</file>
+    </qresource>
+</RCC>

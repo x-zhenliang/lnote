@@ -1,0 +1,19 @@
+[Total function]
+	Qt GUI application template
+[Develop environment]
+	Qt5.7
+	MingW5.30
+[Compile environment]
+	x86_64
+[Target environment]
+	x86_64
+[Third party dependence]
+        qsciscintilla
+
+[next work]
+词法分析
+关键字高亮
+自动补齐
+自动补全的动态切分和学习
+字号大小的设置
+

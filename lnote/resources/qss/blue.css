@@ -1,0 +1,112 @@
+QPalette{background:#C0EBD7;}
+
+.QWidget{
+border:1px solid #C0DCF2;
+border-radius:10px;
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #DEF0FE,stop:1 #C0DEF6);
+}
+
+QWidget#inputWidgetTop{
+color:white;
+background-color:black;
+}
+
+QWidget#leftWidget>QPushButton{
+border-style:none;
+border:0px;
+color:#E7ECF0;
+padding:5px;
+min-height:15px;
+border-radius:0px;
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #667481,stop:1 #566373);
+}
+
+QWidget#leftWidget>QPushButton:hover{
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #778899,stop:1 #708090);
+}
+
+QLabel#titleLabel{
+color:#0C8918;
+font-size:12px;
+}
+
+.QPushButton:hover,QToolButton:hover{
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #778899,stop:1 #708090);
+}
+
+QPushButton#minButton{
+width:33px;
+height:18px;
+border-image:url(:/title/min);
+}
+QPushButton#minButton:hover{
+width:33px;
+height:18px;
+border-image:url(:/title/dmin);
+}
+
+QPushButton#maxButton{
+width:33px;
+height:18px;
+border-image:url(:/title/max);
+}
+
+QPushButton#maxButton:hover{
+width:33px;
+height:18px;
+border-image:url(:/title/dmax);
+}
+
+QPushButton#exitButton{
+width:33px;
+height:18px;
+border-image:url(:/title/close);
+}
+
+QPushButton#exitButton:hover{
+width:33px;
+height:18px;
+border-image:url(:/title/dclose);
+}
+
+QMenuBar::item:hover{
+color:black;
+background-color: #BBCDC5;
+}
+QMenuBar::item:selected{
+color:black;
+background-color: #BBCDC5;
+}
+
+QMenuBar::item:pressed{
+color:black;
+background-color: #BBCDC5;
+}
+
+QMenu#fileMenu::item:selected,QMenu#editMenu::item:selected,QMenu#searchMenu::item:selected,QMenu#viewMenu::item:selected,QMenu#inputMenu::item:selected,QMenu#textmodeMenu::item:selected{
+background-color: #2dabf9;
+}
+
+QToolButton#setupTButton,QToolButton#dataTButton,QToolButton#userTButton{
+background:transparent;
+}
+
+QToolButton#setupTButton:hover,QToolButton#dataTButton:hover,QToolButton#userTButton:hover{
+border-image:url(:/title/backtoolbar);
+}
+
+QTabBar::tab {
+min-width: 4px;
+height:22px;
+}
+
+QMenu::item:selected{
+background-color: #2dabf9;
+}
+
+
+
+
+
+
+

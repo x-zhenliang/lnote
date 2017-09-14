@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/capital.png</file>
+        <file>images/chinese.png</file>
+        <file>images/close_black.png</file>
+        <file>images/close_white.png</file>
+        <file>images/delete_black.png</file>
+        <file>images/delete_white.png</file>
+        <file>images/delete.png</file>
+        <file>images/enter_black.png</file>
+        <file>images/enter_white.png</file>
+        <file>images/enter.png</file>
+        <file>images/handwriting_black.png</file>
+        <file>images/handwriting_white.png</file>
+        <file>images/handwriting.png</file>
+        <file>images/hidekeyboard.png</file>
+        <file>images/mini_black.png</file>
+        <file>images/mini_white.png</file>
+        <file>images/space_black.png</file>
+        <file>images/space_white.png</file>
+        <file>images/space.png</file>
+        <file>images/upper_black.png</file>
+        <file>images/upper_white.png</file>
+    </qresource>
+</RCC>
